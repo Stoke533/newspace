@@ -22,3 +22,6 @@ def roll_window_to_bottom(browser, stop_length=None, step_length=300):
         if check_height == original_top:  # 判断滑动后距顶部的距离与滑动前距顶部的距离
             break
         original_top = check_height
+
+
+# 次函数用于滑动页面，实现js等信息加载， 保障自动化爬虫数据采集的鲁棒性
